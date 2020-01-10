@@ -1,0 +1,47 @@
+.btn-shahin{
+    border: 1px solid transparent;
+    background: #130f40;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: .5rem 0;
+    -webkit-transition: .6s ease;
+    transition: .6s ease;
+}
+.a:hover{
+    color: #130f40;
+    border: 1px solid #130f40;
+    background: none;
+}
+.card .img-box{
+    position: relative;
+}
+.card .img-box h2{
+    font-size: 22px;
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    color: #fff;
+}
+.right-side h2{
+    font-size: 22px;
+}
+
+footer{
+    background: #130f40;
+    color: #fff;
+}
+.progress-bar{
+    background: #0984e3;
+}
+
+footer .fa{
+    margin: 0 10px;
+    color: #fff;
+    -webkit-transition: .6s ease;
+    transition: .6s ease;
+}
+footer .fa:hover{
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
