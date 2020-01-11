@@ -17,8 +17,4 @@ $('.btn-group').on( 'click', 'button', function() {
     $('.btn').click(function(){    $(this).addClass('active').siblings().removeClass('active');
     });
      /* card-first-carousel*/
- $('.carousel').carousel({
-  interval: 100;
-});
-    
 });
