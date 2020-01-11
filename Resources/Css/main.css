@@ -26,22 +26,51 @@
 .right-side h2{
     font-size: 22px;
 }
-
-footer{
-    background: #130f40;
-    color: #fff;
-}
 .progress-bar{
     background: #0984e3;
 }
-
-footer .fa{
-    margin: 0 10px;
+footer{
+    background: #130f40;
     color: #fff;
-    -webkit-transition: .6s ease;
-    transition: .6s ease;
+    text-align: center;
+    padding: 15px 0;
 }
-footer .fa:hover{
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+footer p{
+    margin: 0;
+}
+footer ul{
+    display: block;
+    text-align: center;
+    list-style: none;
+    margin: 10px 0;
+    margin-left: -30px;
+}
+footer ul li{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    padding: 4px;
+    margin: 0 5px;
+    transition: .6s ease;
+    
+}
+footer ul li a{
+    color: #fff;
+}
+footer ul li a:hover{
+    color: #fff;
+}
+footer ul li:nth-child(1):hover{
+    background:#3b5999;
+}
+footer ul li:nth-child(2):hover{
+    background: #55acee;
+}
+footer ul li:nth-child(3):hover{
+    background:#b92b27;
+}
+footer ul li:nth-child(4):hover{
+    background: #0077B5;
 }
