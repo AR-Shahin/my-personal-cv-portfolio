@@ -25,4 +25,5 @@ $('.btn-group').on( 'click', 'button', function() {
   enabled: true
   }
 });
+    new WOW().init();
 });
