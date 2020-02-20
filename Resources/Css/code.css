@@ -19,7 +19,34 @@ body{
     padding-top: 40px;
 }
 
-
+.home-style{
+    height: 40px;
+    width: 40px;
+    border-radius: 5%;
+    background:#d35400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 2%;
+    bottom: 1%;
+    transition: .6s;
+}
+.home-style a{
+    color:#ecf0f1;
+    font-size: 18px;
+    transition: .6s;
+}
+.home-style a:hover{
+    margin-top: -10px;
+}
+.home-style:hover{
+    background:#f39c12;
+}
+.home-style:hover a{
+    color: #fff
+}
 @media only screen and (max-width:480px){
     .box{
         margin-top: 30px;

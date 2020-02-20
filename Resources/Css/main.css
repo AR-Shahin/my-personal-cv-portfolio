@@ -46,15 +46,14 @@ footer ul{
     margin-left: -30px;
 }
 footer ul li{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     display: inline-block;
     border-radius: 50%;
     color: #fff;
-    padding: 4px;
+    line-height: 2.25;
     margin: 0 5px;
     transition: .6s ease;
-    
 }
 footer ul li a{
     color: #fff;
@@ -73,4 +72,7 @@ footer ul li:nth-child(3):hover{
 }
 footer ul li:nth-child(4):hover{
     background: #0077B5;
+}
+footer ul li:nth-child(5):hover{
+    background: #ff0084;
 }
